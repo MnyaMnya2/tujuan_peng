@@ -1,0 +1,96 @@
+html, body{
+    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fdfcfc;
+    line-height: 1.5;
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+    }
+header{
+        background-color: black;
+        color: white;
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+        border: 0;
+        font-size: 3em;
+        margin-bottom: 3vh;
+        padding-bottom: 2vmin;
+        padding-bottom: 4vmin;
+}
+header #imgl{
+        width: 10vmin;
+        margin: auto;
+        padding-top: 1vmin;
+        float: left;
+        margin-left: 2vw;
+}
+.kotak{
+    width: fit-content;
+    padding: 3vw;
+    border-radius: 45px;
+    border: 5px black dashed;
+    animation: color 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;    
+    margin-bottom: 5vh;
+    background-color: #dcdcdc;
+    margin-left: 2vw;
+}
+.kotak:hover{
+    animation: vibrate-1 0.3s linear infinite both;
+}
+#judul{
+    font-size: 1.2em;
+}
+footer{
+    background-color: #464646;
+    color: #efefef;
+    width: 100vw;
+    text-align:center ;
+    margin: 0 !important;
+    border: 0;
+    font-size: 3em;
+    height: 10vmin;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  #credit{
+    font-size: 0.5em;
+    text-align: right;
+  }
+  footer #imga{
+    width: 6vmin;
+    margin: auto;
+    height: 6vmin;
+    padding-top: 2vmin;
+    float: right;
+    margin-right: 2vw;
+}
+footer #imgi{
+    width: 6vmin;
+    margin: auto;
+    height: 6vmin;
+    padding-top: 2vmin;
+    float: right;
+    margin-right: 2vw;
+}
+#isi, #is2, #is3{
+    font-size: 1.1em;
+}
+h1{
+    margin-left: 1vw;
+}
+
+@media only screen and (max-width: 768px){
+    #isi, #is2, #is3{
+        font-size: 0.7em;
+    }
+    header, footer{
+        font-size: 1.7em;
+    }
+    #credit{
+        font-size: 0.3em;
+    }
+}
